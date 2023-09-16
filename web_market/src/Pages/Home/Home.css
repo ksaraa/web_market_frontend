@@ -1,0 +1,30 @@
+.background-image {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    transition: background-image 0.5s ease; /* Dodajte tranziciju za glatku promenu slike */
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+@font-face {
+    font-family: ZARA;
+    src: url(../../resources/fonts/OPTIBodoni-Antiqua.otf);
+}
+
+.naslov {
+    margin: 0;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    font-family: ZARA;
+    font-size: 100pt;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
